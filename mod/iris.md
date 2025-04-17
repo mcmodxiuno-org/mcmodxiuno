@@ -12,7 +12,9 @@
 ## 支持的模组平台
 
 - Fabric
+- Forge
 - NeoForge
+- 原生
 
 ## 不兼容模组
 
