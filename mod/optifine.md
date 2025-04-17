@@ -20,8 +20,7 @@
 
 ## 下载链接
 
-- [Curseforge](https://www.curseforge.com/minecraft/mc-mods/optifine)
-- [Modrinth](https://modrinth.com/mod/optifine)
+- [官网](https://optinfine.net)
 
 ## 优缺点分析
 
