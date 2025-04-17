@@ -11,7 +11,7 @@
 
 ## 不兼容模组
 
-- [Optifine](/mod/optifine.md)
+- [Optifine](/mod/optifine)
 
 ## 下载链接
 
@@ -32,4 +32,4 @@
 
 ## 同类竞品
 
-- [Optifine](/docs/mod/optifine.md)
+- [Optifine](/mod/optifine.md)

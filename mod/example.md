@@ -39,4 +39,4 @@
 
 ## 同类竞品
 
-- [example](/docs/mod/example.md)
+- [example](/mod/example.md)

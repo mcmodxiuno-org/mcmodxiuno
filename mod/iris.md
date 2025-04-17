@@ -37,4 +37,4 @@
 
 ## 同类竞品
 
-- [Optifine](/docs/mod/example.md)
+- [Optifine](/mod/example.md)

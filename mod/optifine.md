@@ -15,8 +15,8 @@
 
 ## 不兼容模组
 
-- [Sodium](/docs/mod/sodium.md)
-- [Iris](/docs/mod/iris.md)
+- [Sodium](/mod/sodium.md)
+- [Iris](/mod/iris.md)
 
 ## 下载链接
 
@@ -38,5 +38,5 @@
 
 ## 同类竞品
 
-- [Sodium](/docs/mod/sodium.md)
-- [Iris](/docs/mod/iris.md)
+- [Sodium](/mod/sodium.md)
+- [Iris](/mod/iris.md)
