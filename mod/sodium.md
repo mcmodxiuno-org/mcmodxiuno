@@ -11,7 +11,7 @@
 
 ## 不兼容模组
 
-- [Optifine](/mod/optifine)
+- [Optifine](/mod/optifine.md)
 
 ## 下载链接
 
