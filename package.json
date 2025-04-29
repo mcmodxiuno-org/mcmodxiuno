@@ -10,6 +10,7 @@
     "vitepress-plugin-search": "^1.0.4-alpha.22"
   },
   "dependencies": {
+    "@xmcl/modrinth": "^2.4.0",
     "minisearch": "^7.1.2"
   }
 }

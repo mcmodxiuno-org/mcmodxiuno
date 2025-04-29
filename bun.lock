@@ -3,6 +3,7 @@
   "workspaces": {
     "": {
       "dependencies": {
+        "@xmcl/modrinth": "^2.4.0",
         "minisearch": "^7.1.2",
       },
       "devDependencies": {
@@ -223,6 +224,8 @@
 
     "@vueuse/shared": ["@vueuse/shared@12.8.2", "https://registry.npmmirror.com/@vueuse/shared/-/shared-12.8.2.tgz", { "dependencies": { "vue": "^3.5.13" } }, "sha512-dznP38YzxZoNloI0qpEfpkms8knDtaoQ6Y/sfS0L7Yki4zh40LFHEhur0odJC6xTHG5dxWVPiUWBXn+wCG2s5w=="],
 
+    "@xmcl/modrinth": ["@xmcl/modrinth@2.4.0", "https://registry.npmmirror.com/@xmcl/modrinth/-/modrinth-2.4.0.tgz", { "dependencies": { "undici": "7.2.3" } }, "sha512-Ih2coGGBCNCmUxnjYrFfL7ns6dsKeUz1mR3Xcw5DZSjXqR7Gz6m4PmkTyjeBSkcC3Ts+YfG4QLdOY7bPInnthQ=="],
+
     "algoliasearch": ["algoliasearch@5.23.4", "https://registry.npmmirror.com/algoliasearch/-/algoliasearch-5.23.4.tgz", { "dependencies": { "@algolia/client-abtesting": "5.23.4", "@algolia/client-analytics": "5.23.4", "@algolia/client-common": "5.23.4", "@algolia/client-insights": "5.23.4", "@algolia/client-personalization": "5.23.4", "@algolia/client-query-suggestions": "5.23.4", "@algolia/client-search": "5.23.4", "@algolia/ingestion": "1.23.4", "@algolia/monitoring": "1.23.4", "@algolia/recommend": "5.23.4", "@algolia/requester-browser-xhr": "5.23.4", "@algolia/requester-fetch": "5.23.4", "@algolia/requester-node-http": "5.23.4" } }, "sha512-QzAKFHl3fm53s44VHrTdEo0TkpL3XVUYQpnZy1r6/EHvMAyIg+O4hwprzlsNmcCHTNyVcF2S13DAUn7XhkC6qg=="],
 
     "argparse": ["argparse@2.0.1", "https://registry.npmmirror.com/argparse/-/argparse-2.0.1.tgz", {}, "sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q=="],
@@ -340,6 +343,8 @@
     "trim-lines": ["trim-lines@3.0.1", "https://registry.npmmirror.com/trim-lines/-/trim-lines-3.0.1.tgz", {}, "sha512-kRj8B+YHZCc9kQYdWfJB2/oUl9rA99qbowYYBtr4ui4mZyAQ2JpvVBd/6U2YloATfqBhBTSMhTpgBHtU0Mf3Rg=="],
 
     "uc.micro": ["uc.micro@1.0.6", "https://registry.npmmirror.com/uc.micro/-/uc.micro-1.0.6.tgz", {}, "sha512-8Y75pvTYkLJW2hWQHXxoqRgV7qb9B+9vFEtidML+7koHUFapnVJAZ6cKs+Qjz5Aw3aZWHMC6u0wJE3At+nSGwA=="],
+
+    "undici": ["undici@7.2.3", "https://registry.npmmirror.com/undici/-/undici-7.2.3.tgz", {}, "sha512-2oSLHaDalSt2/O/wHA9M+/ZPAOcU2yrSP/cdBYJ+YxZskiPYDSqHbysLSlD7gq3JMqOoJI5O31RVU3BxX/MnAA=="],
 
     "unist-util-is": ["unist-util-is@6.0.0", "https://registry.npmmirror.com/unist-util-is/-/unist-util-is-6.0.0.tgz", { "dependencies": { "@types/unist": "^3.0.0" } }, "sha512-2qCTHimwdxLfz+YzdGfkqNlH0tLi9xjTnHddPmJwtIG9MGsdbutfTc4P+haPD7l7Cjxf/WZj+we5qfVPvvxfYw=="],
 
