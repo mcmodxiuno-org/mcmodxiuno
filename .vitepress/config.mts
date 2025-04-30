@@ -17,9 +17,14 @@ export default defineConfig({
     search: {
       provider: 'local'
     },
+    
+    nav: [
+      { text: '首页', link: '/' },
+      { text: '贡献指南', link: '/docs/pr' }
+    ],
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/AkarinLiu/mcmodxiuno' }
-    ]
+    ],
   }
 })
