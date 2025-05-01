@@ -1,3 +1,7 @@
+import Clarity from '@microsoft/clarity'
+
+const projectId = "rckh4kgswt" // Replace with your actual project ID
+Clarity.init(projectId);
 
 import { defineConfig } from 'vitepress'
 
