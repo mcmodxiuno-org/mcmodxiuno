@@ -1,8 +1,3 @@
-import Clarity from '@microsoft/clarity'
-
-const projectId = "rckh4kgswt" // Replace with your actual project ID
-Clarity.init(projectId);
-
 import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
@@ -15,6 +10,15 @@ export default defineConfig({
 	  hostname: 'https://mcmodxiuno.netlify.app',
 	  lastmodDateOnly: false
   },
+  head: [
+    ['script', {}, `
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "rckh4kgswt");
+    `]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
 
@@ -30,5 +34,6 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/AkarinLiu/mcmodxiuno' }
     ],
+    
   }
 })
