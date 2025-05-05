@@ -1,6 +1,5 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
-layout: home
+pageType : home
 
 hero:
   name: "Minecraft 模组修罗场"
