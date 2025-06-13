@@ -7,7 +7,7 @@ export default defineConfig({
   lang: "zh-CN",
   cleanUrls: true,
   sitemap: {
-    hostname: "https://mcmodxiuno.netlify.app",
+    hostname: "https://mcmodxiuno.pages.dev",
     lastmodDateOnly: false,
   },
   head: [
