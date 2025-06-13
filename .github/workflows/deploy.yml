@@ -21,7 +21,7 @@ jobs:
         run: npm i
 
       - name: Build VitePress site
-        run: npm run build
+        run: npm run docs:build
 
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/pages-action@1
