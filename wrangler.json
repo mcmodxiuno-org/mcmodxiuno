@@ -1,0 +1,20 @@
+{
+  "name": "vitepress-site",
+  "main": "dist/index.html",
+  "compatibility_date": "2024-06-01",
+  "pages": {
+    "build": {
+      "command": "npm run docs:build",
+      "cwd": "./",
+      "output_dir": ".vitepress/dist"
+    }
+  },
+  "vars": {
+    "ENVIRONMENT": "production"
+  },
+  "dev": {
+    "ip": "localhost",
+    "port": 5173,
+    "local_protocol": "http"
+  }
+}
