@@ -1,0 +1,25 @@
+# wrangler.toml
+name = "vitepress-site"
+compatibility_date = "2024-06-01"
+main = "./.vitepress/dist/_worker.js"  # 使用 VitePress 生成的 Worker
+usage_model = "bundled"
+
+[site]
+bucket = "./.vitepress/dist"  # 构建输出目录
+entry-point = "./.vitepress/dist"  # Worker 入口
+
+# 路由配置 (根据实际域名修改)
+routes = [
+  "example.com/*",
+  "www.example.com/*"
+]
+
+# 环境变量示例 (可选)
+[vars]
+ENVIRONMENT = "production"
+
+# KV 命名空间示例 (可选)
+[[kv_namespaces]]
+binding = "APP_CACHE"
+id = "your-kv-namespace-id"
+preview_id = "preview-kv-id"
