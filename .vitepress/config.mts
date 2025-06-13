@@ -39,4 +39,15 @@ export default defineConfig({
       { icon: "github", link: "https://github.com/AkarinLiu/mcmodxiuno" },
     ],
   },
+  locales: {
+    root: {
+      label: "中文",
+      lang: "zh",
+    },
+    en: {
+      label: "English",
+      lang: "en",
+      link: "/en/",
+    },
+  },
 });
