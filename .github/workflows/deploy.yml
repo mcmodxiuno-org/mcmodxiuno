@@ -28,5 +28,5 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: "mcmodxiuno-org/mcmodxiuno" # 替换为你的项目名
+          projectName: "mcmodxiuno" # 替换为你的项目名
           directory: "./.vitepress/dist"
