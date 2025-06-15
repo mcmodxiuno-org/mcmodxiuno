@@ -6,6 +6,7 @@
         "@giscus/vue": "^3.1.1",
         "@xmcl/modrinth": "^2.4.0",
         "minisearch": "^7.1.2",
+        "vitepress-plugin-comment-with-giscus": "^1.1.15",
       },
       "devDependencies": {
         "flexsearch": "^0.7.43",
@@ -606,6 +607,8 @@
 
     "vitepress": ["vitepress@1.6.3", "https://registry.npmmirror.com/vitepress/-/vitepress-1.6.3.tgz", { "dependencies": { "@docsearch/css": "3.8.2", "@docsearch/js": "3.8.2", "@iconify-json/simple-icons": "^1.2.21", "@shikijs/core": "^2.1.0", "@shikijs/transformers": "^2.1.0", "@shikijs/types": "^2.1.0", "@types/markdown-it": "^14.1.2", "@vitejs/plugin-vue": "^5.2.1", "@vue/devtools-api": "^7.7.0", "@vue/shared": "^3.5.13", "@vueuse/core": "^12.4.0", "@vueuse/integrations": "^12.4.0", "focus-trap": "^7.6.4", "mark.js": "8.11.1", "minisearch": "^7.1.1", "shiki": "^2.1.0", "vite": "^5.4.14", "vue": "^3.5.13" }, "peerDependencies": { "markdown-it-mathjax3": "^4", "postcss": "^8" }, "optionalPeers": ["markdown-it-mathjax3"], "bin": "bin/vitepress.js" }, "sha512-fCkfdOk8yRZT8GD9BFqusW3+GggWYZ/rYncOfmgcDtP3ualNHCAg+Robxp2/6xfH1WwPHtGpPwv7mbA3qomtBw=="],
 
+    "vitepress-plugin-comment-with-giscus": ["vitepress-plugin-comment-with-giscus@1.1.15", "https://registry.npmmirror.com/vitepress-plugin-comment-with-giscus/-/vitepress-plugin-comment-with-giscus-1.1.15.tgz", { "dependencies": { "@giscus/vue": "^2.2.8" } }, "sha512-1DJjgN+7SYvn5ZkjuSXPmz7nlqfcrh4qCGGviiZghA2ELXnaO2m9WY7m+RisPSaqCn90xqe0JbO2T4NMq8iUBg=="],
+
     "vitepress-plugin-search": ["vitepress-plugin-search@1.0.4-alpha.22", "https://registry.npmmirror.com/vitepress-plugin-search/-/vitepress-plugin-search-1.0.4-alpha.22.tgz", { "dependencies": { "@types/flexsearch": "^0.7.3", "@types/markdown-it": "^12.2.3", "glob-to-regexp": "^0.4.1", "markdown-it": "^13.0.1" }, "peerDependencies": { "flexsearch": "^0.7.31", "vitepress": "^1.0.0-rc.35", "vue": "3" } }, "sha512-IAOEJu+kjVY+0pb6/PeRjIbr175HFFbnMdLmLjqcy7VWxkabIRZbLoQL1VUYDZl804o/Or+GaX02gsiMOnVxFA=="],
 
     "vue": ["vue@3.5.13", "https://registry.npmmirror.com/vue/-/vue-3.5.13.tgz", { "dependencies": { "@vue/compiler-dom": "3.5.13", "@vue/compiler-sfc": "3.5.13", "@vue/runtime-dom": "3.5.13", "@vue/server-renderer": "3.5.13", "@vue/shared": "3.5.13" }, "peerDependencies": { "typescript": "*" }, "optionalPeers": ["typescript"] }, "sha512-wmeiSMxkZCSc+PM2w2VRsOYAZC8GdipNFRTsLSfodVqI9mbejKeXEGr8SckuLnrQPGe3oJN5c3K0vpoU9q/wCQ=="],
@@ -633,6 +636,8 @@
     "terser/acorn": ["acorn@8.14.1", "https://registry.npmmirror.com/acorn/-/acorn-8.14.1.tgz", { "bin": { "acorn": "bin/acorn" } }, "sha512-OvQ/2pUDKmgfCg++xsTX1wGxfTaszcHVcTctW4UJB4hibJx2HXxxO5UmVgyjMa+ZDsiaf5wWLXYpRWMmBI0QHg=="],
 
     "vite/esbuild": ["esbuild@0.21.5", "https://registry.npmmirror.com/esbuild/-/esbuild-0.21.5.tgz", { "optionalDependencies": { "@esbuild/aix-ppc64": "0.21.5", "@esbuild/android-arm": "0.21.5", "@esbuild/android-arm64": "0.21.5", "@esbuild/android-x64": "0.21.5", "@esbuild/darwin-arm64": "0.21.5", "@esbuild/darwin-x64": "0.21.5", "@esbuild/freebsd-arm64": "0.21.5", "@esbuild/freebsd-x64": "0.21.5", "@esbuild/linux-arm": "0.21.5", "@esbuild/linux-arm64": "0.21.5", "@esbuild/linux-ia32": "0.21.5", "@esbuild/linux-loong64": "0.21.5", "@esbuild/linux-mips64el": "0.21.5", "@esbuild/linux-ppc64": "0.21.5", "@esbuild/linux-riscv64": "0.21.5", "@esbuild/linux-s390x": "0.21.5", "@esbuild/linux-x64": "0.21.5", "@esbuild/netbsd-x64": "0.21.5", "@esbuild/openbsd-x64": "0.21.5", "@esbuild/sunos-x64": "0.21.5", "@esbuild/win32-arm64": "0.21.5", "@esbuild/win32-ia32": "0.21.5", "@esbuild/win32-x64": "0.21.5" }, "bin": "bin/esbuild" }, "sha512-mg3OPMV4hXywwpoDxu3Qda5xCKQi+vCTZq8S9J/EpkhB2HzKXq4SNFZE3+NK93JYxc8VMSep+lOUSC/RVKaBqw=="],
+
+    "vitepress-plugin-comment-with-giscus/@giscus/vue": ["@giscus/vue@2.4.0", "https://registry.npmmirror.com/@giscus/vue/-/vue-2.4.0.tgz", { "dependencies": { "giscus": "^1.4.0" }, "peerDependencies": { "vue": ">=3.2.0" } }, "sha512-QOxKHgsMT91myyQagP2v20YYAei1ByZuc3qcaYxbHx4AwOeyVrybDIuRFwG9YDv6OraC86jYnU4Ixd37ddC/0A=="],
 
     "vitepress-plugin-search/@types/markdown-it": ["@types/markdown-it@12.2.3", "https://registry.npmmirror.com/@types/markdown-it/-/markdown-it-12.2.3.tgz", { "dependencies": { "@types/linkify-it": "*", "@types/mdurl": "*" } }, "sha512-GKMHFfv3458yYy+v/N8gjufHO6MSZKCOXpZc5GXIWWy8uldwfmPn98vp81gZ5f9SVw8YYBctgfJ22a2d7AOMeQ=="],
 

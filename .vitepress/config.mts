@@ -1,6 +1,10 @@
 import { defineConfig } from "vitepress";
-
 // https://vitepress.dev/reference/site-config
+
+// .vitepress/theme/index.js
+import DefaultTheme from 'vitepress/theme'
+import Giscus from './components/Giscus.vue'
+
 export default defineConfig({
   title: "Minecraft 模组修罗场",
   description: "一个 Minecraft 同类模组对比网站",
@@ -10,6 +14,7 @@ export default defineConfig({
     hostname: "https://mcmodxiuno.pages.dev",
     lastmodDateOnly: false,
   },
+
   head: [
     [
       "script",
@@ -23,6 +28,7 @@ export default defineConfig({
     `,
     ],
   ],
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
 
@@ -38,6 +44,11 @@ export default defineConfig({
     socialLinks: [
       { icon: "github", link: "https://github.com/AkarinLiu/mcmodxiuno" },
     ],
+
+    footer: {
+      message: '基于 MIT 许可发布',
+      copyright: 'Copyright © 202-present Minecraft 模组修罗场'
+    }
   },
   locales: {
     root: {

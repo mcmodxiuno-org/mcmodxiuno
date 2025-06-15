@@ -13,6 +13,7 @@
   "dependencies": {
     "@giscus/vue": "^3.1.1",
     "@xmcl/modrinth": "^2.4.0",
-    "minisearch": "^7.1.2"
+    "minisearch": "^7.1.2",
+    "vitepress-plugin-comment-with-giscus": "^1.1.15"
   }
 }
