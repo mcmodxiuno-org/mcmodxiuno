@@ -1,81 +1,105 @@
-<!-- .vitepress/theme/components/Giscus.vue -->
 <script setup>
-import { ref, watch, onMounted } from 'vue'
-import { useRoute } from 'vitepress'
+import { ref, watch, onMounted, onUnmounted } from 'vue'
+import { useRoute, useData } from 'vitepress'
 
 const route = useRoute()
+const { isDark } = useData()
 const giscusContainer = ref(null)
-const giscusScriptLoaded = ref(false)
+let giscusLoaded = false
 
-// 配置参数（直接使用你的配置）
+// 配置参数
 const giscusConfig = {
-  src: 'https://giscus.app/client.js',
-  'data-repo': 'mcmodxiuno-org/mcmodxiuno',
-  'data-repo-id': 'R_kgDOOa7qeQ',
-  'data-category': '评论区',
-  'data-category-id': 'DIC_kwDOOa7qec4CrhhG',
-  'data-mapping': 'pathname',
-  'data-strict': '0',
-  'data-reactions-enabled': '1',
-  'data-emit-metadata': '0',
-  'data-input-position': 'bottom',
-  'data-theme': 'preferred_color_scheme',
-  'data-lang': 'zh-CN',
-  'data-loading': 'lazy',
-  crossorigin: 'anonymous',
-  async: true
+  'repo': 'mcmodxiuno-org/mcmodxiuno',
+  'repo-id': 'R_kgDOOa7qeQ',
+  'category': '评论区',
+  'category-id': 'DIC_kwDOOa7qec4CrhhG',
+  'mapping': 'pathname',
+  'strict': '0',
+  'reactions-enabled': '1',
+  'emit-metadata': '0',
+  'input-position': 'bottom',
+  'theme': 'preferred_color_scheme',
+  'lang': 'zh-CN',
+  'loading': 'lazy'
 }
 
-// 加载 Giscus 脚本
+// 获取当前主题
+const getGiscusTheme = () => {
+  return isDark.value ? 'dark' : 'light'
+}
+
+// 加载 Giscus
 const loadGiscus = () => {
-  if (!giscusScriptLoaded.value) {
-    const script = document.createElement('script')
-    Object.entries(giscusConfig).forEach(([key, value]) => {
-      if (key === 'src') {
-        script.src = value
-      } else if (key === 'async') {
-        script.async = value
-      } else {
-        script.setAttribute(`data-${key}`, value)
-      }
-    })
-    document.head.appendChild(script)
-    giscusScriptLoaded.value = true
+  if (giscusLoaded) return
+  
+  window.giscus_config = {
+    ...giscusConfig,
+    theme: getGiscusTheme()
   }
+
+  const script = document.createElement('script')
+  script.src = 'https://giscus.app/client.js'
+  script.async = true
+  script.crossOrigin = 'anonymous'
+  
+  // 设置所有 data-* 属性
+  Object.entries(giscusConfig).forEach(([key, value]) => {
+    script.setAttribute(`data-${key}`, value)
+  })
+  
+  // 设置主题属性
+  script.setAttribute('data-theme', getGiscusTheme())
+  
+  giscusContainer.value.appendChild(script)
+  giscusLoaded = true
 }
 
-// 清理 Giscus 元素
+// 更新主题
+const updateTheme = (theme) => {
+  const iframe = document.querySelector('iframe.giscus-frame')
+  if (!iframe) return
+  
+  iframe.contentWindow.postMessage(
+    { giscus: { setConfig: { theme } } },
+    'https://giscus.app'
+  )
+}
+
+// 清理 Giscus
 const cleanupGiscus = () => {
   const iframe = document.querySelector('iframe.giscus-frame')
   if (iframe) iframe.remove()
+  giscusLoaded = false
 }
 
-// 初始加载和路由变化时重新加载
+// 初始加载
 onMounted(() => {
   loadGiscus()
 })
 
+// 路由变化时重新加载
 watch(() => route.path, () => {
   cleanupGiscus()
-  if (giscusContainer.value) {
-    // 重新创建容器元素
-    const newContainer = document.createElement('div')
-    newContainer.className = 'giscus'
-    giscusContainer.value.replaceWith(newContainer)
-    giscusContainer.value = newContainer
-    
-    // 重新加载脚本
-    loadGiscus()
-  }
+  loadGiscus()
+})
+
+// 主题变化时更新
+watch(() => isDark.value, (newVal) => {
+  updateTheme(getGiscusTheme())
+})
+
+// 组件卸载时清理
+onUnmounted(() => {
+  cleanupGiscus()
 })
 </script>
 
 <template>
-  <div class="giscus" ref="giscusContainer"></div>
+  <div class="giscus-container" ref="giscusContainer"></div>
 </template>
 
 <style scoped>
-.giscus {
+.giscus-container {
   margin-top: 2rem;
   padding-top: 2rem;
   border-top: 1px solid var(--vp-c-divider);
