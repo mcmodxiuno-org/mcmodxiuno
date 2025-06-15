@@ -46,8 +46,7 @@ export default defineConfig({
     ],
 
     footer: {
-      message: '基于 MIT 许可发布',
-      copyright: 'Copyright © 202-present Minecraft 模组修罗场'
+      copyright: 'Copyright © 2025-present Minecraft 模组修罗场'
     }
   },
   locales: {
