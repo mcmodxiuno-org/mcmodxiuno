@@ -13,7 +13,7 @@ const giscusConfig = {
   'repo-id': 'R_kgDOOa7qeQ',
   'category': '评论区',
   'category-id': 'DIC_kwDOOa7qec4CrhhG',
-  'mapping': 'pathname',
+  'mapping': 'url',
   'strict': '0',
   'reactions-enabled': '1',
   'emit-metadata': '0',
