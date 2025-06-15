@@ -36,7 +36,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/AkarinLiu/mcmodxiuno" },
+      { icon: "github", link: "https://github.com/mcmodxiuno-org/mcmodxiuno" },
     ],
   },
   locales: {
