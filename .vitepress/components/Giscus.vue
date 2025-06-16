@@ -9,11 +9,11 @@ let giscusLoaded = false
 
 // 配置参数
 const giscusConfig = {
-  'repo': 'mcmodxiuno-org/mcmodxiuno',
-  'repo-id': 'R_kgDOOa7qeQ',
-  'category': '评论区',
-  'category-id': 'DIC_kwDOOa7qec4CrhhG',
-  'mapping': 'url',
+  'repo': 'mcmodxiuno-org/comments',
+  'repo-id': 'R_kgDOO8iOcA',
+  'category': 'General',
+  'category-id': 'DIC_kwDOO8iOcM4CrkZr',
+  'mapping': 'pathname',
   'strict': '0',
   'reactions-enabled': '1',
   'emit-metadata': '0',

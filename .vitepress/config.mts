@@ -2,8 +2,8 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 
 // .vitepress/theme/index.js
-import DefaultTheme from 'vitepress/theme'
-import Giscus from './components/Giscus.vue'
+import DefaultTheme from "vitepress/theme";
+import Giscus from "./components/Giscus.vue";
 
 export default defineConfig({
   title: "Minecraft 模组修罗场",
@@ -46,8 +46,8 @@ export default defineConfig({
     ],
 
     footer: {
-      copyright: 'Copyright © 2025-present Minecraft 模组修罗场'
-    }
+      copyright: "Copyright © 2025-present Minecraft 模组修罗场",
+    },
   },
   locales: {
     root: {
