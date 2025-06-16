@@ -17,7 +17,7 @@ const giscusConfig = {
   'strict': '0',
   'reactions-enabled': '1',
   'emit-metadata': '0',
-  'input-position': 'bottom',
+  'input-position': 'top',
   'theme': 'preferred_color_scheme',
   'lang': 'zh-CN',
   'loading': 'lazy'
