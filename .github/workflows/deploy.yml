@@ -3,8 +3,9 @@ name: Deploy to Cloudflare Pages
 on:
   push:
     branches: [master] # 触发部署的分支
+  # 拉取 PR 合并后自动部署
   pull_request:
-    types: [closed]
+    types: [auto_merge_enabled]
     branches: [master]
 
 jobs:
