@@ -45,3 +45,5 @@
 
 - [Sodium](/mod/sodium.md)
 - [Iris](/mod/iris.md)
+
+<Giscus />

@@ -19,7 +19,7 @@
 
 ## 不兼容模组
 
-- [Optifine](/mod/optifine.md) 
+- [Optifine](/mod/optifine.md)
 
 ## 下载链接
 
@@ -41,3 +41,5 @@
 ## 同类竞品
 
 - [Optifine](/mod/example.md)
+
+<Giscus />

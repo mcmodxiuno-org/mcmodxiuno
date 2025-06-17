@@ -41,3 +41,5 @@
 ## 同类竞品
 
 - [Optifine](/mod/optifine.md)
+
+<Giscus />

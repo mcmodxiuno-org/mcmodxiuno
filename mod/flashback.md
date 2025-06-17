@@ -22,7 +22,7 @@
 
 ## 不兼容模组
 
-- 
+-
 
 ## 下载链接
 
@@ -45,3 +45,5 @@
 ## 同类竞品
 
 - [ReplayMod](/mod/replaymod.md)
+
+<Giscus />

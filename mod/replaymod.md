@@ -24,7 +24,7 @@
 
 ## 不兼容模组
 
-- 
+-
 
 ## 下载链接
 
@@ -47,3 +47,5 @@
 ## 同类竞品
 
 - [Flashback](/mod/flashback.md)
+
+<Giscus />
