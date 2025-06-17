@@ -38,7 +38,7 @@ export default defineConfig({
 
     nav: [
       { text: "首页", link: "/" },
-      { text: "贡献指南", link: "/docs/pr" },
+      { text: "贡献指南", link: "/CONTRIBUTING" },
     ],
 
     socialLinks: [
