@@ -8,12 +8,13 @@ import Giscus from "./components/Giscus.vue";
 export default defineConfig({
   title: "Minecraft 模组修罗场",
   description: "一个 Minecraft 同类模组对比网站",
-  lang: "zh-CN",
+  lang: "zh",
   cleanUrls: true,
   sitemap: {
     hostname: "https://mcmodxiuno.pages.dev",
     lastmodDateOnly: false,
   },
+  lastUpdated: true,
 
   head: [
     [
@@ -48,7 +49,12 @@ export default defineConfig({
     footer: {
       copyright: "Copyright © 2025-present Minecraft 模组修罗场",
     },
+    editLink: {
+      pattern: "https://github.com/mcmodxiuno-org/mcmodxiuno/edit/master/:path",
+      text: "在 GitHub 编辑",
+    },
   },
+
   locales: {
     root: {
       label: "中文",
