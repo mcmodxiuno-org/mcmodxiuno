@@ -38,7 +38,7 @@
 
 ### 缺点
 
-- 不支持使用 Java 8 的 Minecraft 版本
+- 不支持使用 Java 17 以下的 Minecraft 版本
 
 ## 同类竞品
 
