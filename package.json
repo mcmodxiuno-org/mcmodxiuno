@@ -5,6 +5,7 @@
     "docs:preview": "vitepress preview"
   },
   "devDependencies": {
+    "@xmcl/modrinth": "^2.4.0",
     "flexsearch": "^0.7.43",
     "vitepress": "^1.6.3",
     "vitepress-plugin-search": "^1.0.4-alpha.22",
@@ -12,8 +13,11 @@
   },
   "dependencies": {
     "@giscus/vue": "^3.1.1",
-    "@xmcl/modrinth": "^2.4.0",
+    "axios": "^1.10.0",
+    "markdown-it": "^14.1.0",
+    "markdown-it-container": "^4.0.0",
     "minisearch": "^7.1.2",
+    "vite-plugin-static-copy": "^3.0.2",
     "vitepress-plugin-comment-with-giscus": "^1.1.15"
   }
 }
