@@ -40,6 +40,14 @@ export default defineConfig({
     nav: [
       { text: "首页", link: "/" },
       { text: "贡献指南", link: "/CONTRIBUTING" },
+      {
+        text: "讨论区",
+        link: "https://github.com/mcmodxiuno-org/mcmodxiuno/discussions",
+      },
+      {
+        text: "Issues",
+        link: "https://github.com/mcmodxiuno-org/mcmodxiuno/issues",
+      },
     ],
 
     socialLinks: [
