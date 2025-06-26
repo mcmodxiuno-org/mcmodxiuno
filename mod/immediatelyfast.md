@@ -1,3 +1,7 @@
+---
+description: '一个 Minecraft 启动速度优化模组，快如闪电。支持 Forge、NeoForge、Fabric 和 Quilt 模组加载器。'
+---
+
 # ImmediatelyFast
 
 ## 版本支持列表
@@ -11,7 +15,7 @@
 
 ## 简介
 
-请填写该模组的简介
+一个 Minecraft 启动速度优化模组，快如闪电。
 
 ## 运行环境
 

@@ -1,3 +1,7 @@
+---
+description: 'Iris 是一个基于 Sodium 的中间件光影加载器，专为 Minecraft 设计，提供快速的光影加载速度。支持 NeoForge、Fabric 和 Quilt 模组加载器。'
+---
+
 # Iris
 
 ## 版本支持列表
@@ -10,7 +14,7 @@
 
 ## 简介
 
-一个 Sodium 的中间件
+一个 Sodium 的中间件光影加载器，可替代 Optifine
 
 ## 运行环境
 

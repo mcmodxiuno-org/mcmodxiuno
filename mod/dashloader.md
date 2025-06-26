@@ -1,3 +1,7 @@
+--- 
+description: '一个加速Minecraft运行速度的模组，支持多个版本，提供Curseforge和Modrinth下载渠道'
+---
+
 # DashLoader
 
 ## 版本支持列表
@@ -10,7 +14,7 @@
 
 ## 简介
 
-请填写该模组的简介
+一个加速 Minecraft 运行速度的模组
 
 ## 运行环境
 
