@@ -1,4 +1,5 @@
 ---
+tiitle: Minecraft模组修罗场 —— 一个 Minecraft 同类模组对比网站
 layout : home
 
 hero:
