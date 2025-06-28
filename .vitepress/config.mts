@@ -6,7 +6,7 @@ import DefaultTheme from "vitepress/theme";
 import Giscus from "./components/Giscus.vue";
 
 export default defineConfig({
-  title: "Minecraft 模组修罗场",
+  title: "Minecraft 模组修罗场 - 一个 Minecraft 同类模组对比网站",
   description: "可能是世界上第一个 Minecraft 同类模组对比网站",
   lang: "zh",
   cleanUrls: true,
