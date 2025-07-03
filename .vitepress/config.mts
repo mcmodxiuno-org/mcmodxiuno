@@ -11,7 +11,7 @@ export default defineConfig({
   lang: "zh",
   cleanUrls: true,
   sitemap: {
-    hostname: "https://mcmodxiuno.pages.dev",
+    hostname: "https://mcmodxiuno.org.cn",
     lastmodDateOnly: false,
   },
   lastUpdated: true,
