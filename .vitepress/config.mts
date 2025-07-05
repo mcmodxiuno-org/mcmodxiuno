@@ -131,5 +131,79 @@ export default defineConfig({
       outlineTitle: "Table of Contents",
       },
     },
+    jp: {
+      label: "日本語",
+      lang: "ja",
+      link: "/jp/",
+      title: "Minecraft モッド修羅場",
+      description: "世界初のMinecraftモッド比較サイトかもしれません",
+      themeConfig: {
+        
+          nav: [
+        { text: "ホーム", link: "/jp/" },
+        { text: "貢献ガイド", link: "/jp/CONTRIBUTING" },
+        { text: "について", link: "/jp/about" },
+        {
+          text: "ディスカッション",
+          link: "https://github.com/mcmodxiuno-org/mcmodxiuno/discussions",
+        },
+        {
+          text: "Issues",
+          link: "https://github.com/mcmodxiuno-org/mcmodxiuno/issues",
+        },
+      ],
+
+      socialLinks: [
+        { icon: "github", link: "https://github.com/mcmodxiuno-org/mcmodxiuno" },
+      ],
+
+      footer: {
+        copyright: "Copyright © 2025-present Minecraft モッド修羅場",
+      },
+      editLink: {
+        pattern: "https://github.com/mcmodxiuno-org/mcmodxiuno/edit/master/:path",
+        text: "在 GitHub 编辑",
+      },
+      lastUpdatedText: "上次更新",
+      outlineTitle: "目录",
+      },
+    },
+    kr: {
+      label: "한국어",
+      lang: "ko",
+      link: "/kr/",
+      title: "Minecraft 모드 수련장",
+      description: "세계 최초의 Minecraft 모드 비교 사이트일 수 있습니다.",
+      themeConfig: {
+        
+          nav: [
+        { text: "홈", link: "/kr/" },
+        { text: "기여 가이드", link: "/kr/CONTRIBUTING" },
+        { text: "소개", link: "/kr/about" },
+        {
+          text: "토론",
+          link: "https://github.com/mcmodxiuno-org/mcmodxiuno/discussions",
+        },
+        {
+          text: "Issues",
+          link: "https://github.com/mcmodxiuno-org/mcmodxiuno/issues",
+        },
+      ],
+
+      socialLinks: [
+        { icon: "github", link: "https://github.com/mcmodxiuno-org/mcmodxiuno" },
+      ],
+
+      footer: {
+        copyright: "Copyright © 2025-present Minecraft 모드 수련장",
+      },
+      editLink: {
+        pattern: "https://github.com/mcmodxiuno-org/mcmodxiuno/edit/master/:path",
+        text: "在 GitHub 编辑",
+      },
+      lastUpdatedText: "上次更新",
+      outlineTitle: "目录",
+      },
+    },
   },
 });
