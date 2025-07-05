@@ -47,4 +47,4 @@
 
 - [ReplayMod](/mod/replaymod.md)
 
-<Giscus />
+

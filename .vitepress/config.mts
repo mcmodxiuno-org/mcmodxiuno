@@ -3,7 +3,6 @@ import { defineConfig } from "vitepress";
 
 // .vitepress/theme/index.js
 import DefaultTheme from "vitepress/theme";
-import Giscus from "./components/Giscus.vue";
 
 export default defineConfig({
   title: "Minecraft 模组修罗场",

@@ -48,4 +48,4 @@ description: '一个 Minecraft 启动速度优化模组，快如闪电。支持 
 
 - [DashLoader](/mod/dashloader.md)
 
-<Giscus />
+

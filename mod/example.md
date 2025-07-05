@@ -47,4 +47,4 @@
 
 - [example](/mod/example.md)
 
-<Giscus />
+

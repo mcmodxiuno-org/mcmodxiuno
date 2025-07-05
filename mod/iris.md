@@ -46,4 +46,4 @@ description: 'Iris 是一个基于 Sodium 的中间件光影加载器，专为 M
 
 - [Optifine](/mod/example.md)
 
-<Giscus />
+

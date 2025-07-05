@@ -45,4 +45,4 @@ description: '这是一个优化 Minecraft 模组，替代 Optifine 的新模组
 
 - [Optifine](/mod/optifine.md)
 
-<Giscus />
+

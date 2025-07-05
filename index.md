@@ -23,4 +23,4 @@ features:
 
 3.页面会展示这个模组的替代品和该模组支持的 Minecraft 版本等信息。
 
-<Giscus />
+

@@ -46,4 +46,4 @@ description: '一个加速Minecraft运行速度的模组，支持多个版本，
 
 - [ImmediatelyFast](/mod/immediatelyfast.md)
 
-<Giscus />
+

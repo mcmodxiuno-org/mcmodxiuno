@@ -8,7 +8,7 @@ const { Layout } = DefaultTheme
 <template>
   <Layout>
     <template #doc-after>
-      <Giscus />
+      
     </template>
   </Layout>
 </template>
