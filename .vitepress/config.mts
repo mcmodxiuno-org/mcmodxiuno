@@ -52,6 +52,57 @@ export default defineConfig({
               },
             },
           },
+          en: {
+            translations: {
+              button: {
+                buttonText: "Search Documents",
+                buttonAriaLabel: "Search Documents",
+              },
+              modal: {
+                noResultsText: "No relevant results found",
+                resetButtonTitle: "Clear query conditions",
+                footer: {
+                  selectText: "Select",
+                  navigateText: "Switch",
+                  closeText: "Close",
+                },
+              },
+            },
+          },
+          jp: {
+            translations: {
+              button: {
+                buttonText: "ドキュメントを検索",
+                buttonAriaLabel: "ドキュメントを検索",
+              },
+              modal: {
+                noResultsText: "関連する結果が見つかりませんでした",
+                resetButtonTitle: "クエリ条件をクリア",
+                footer: {
+                  selectText: "選択",
+                  navigateText: "切り替え",
+                  closeText: "閉じる",
+                },
+              },
+            },
+          },
+          kr: {
+            translations: {
+              button: {
+                buttonText: "문서 검색",
+                buttonAriaLabel: "문서 검색",
+              },
+              modal: {
+                noResultsText: "관련 결과를 찾을 수 없습니다",
+                resetButtonTitle: "쿼리 조건 지우기",
+                footer: {
+                  selectText: "선택",
+                  navigateText: "전환",
+                  closeText: "닫기",
+                },
+              },
+            },
+          }
         },
       },
     },
