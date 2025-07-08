@@ -129,6 +129,10 @@ export default defineConfig({
           text: "Issues",
           link: "https://github.com/mcmodxiuno-org/mcmodxiuno/issues",
         },
+        {
+          text: "加入我们",
+          link: "mailto:akarinliu@outlook.com"
+        }
       ],
 
       socialLinks: [
@@ -165,6 +169,10 @@ export default defineConfig({
           text: "Issues",
           link: "https://github.com/mcmodxiuno-org/mcmodxiuno/issues",
         },
+        {
+          text: "Join Us",
+          link: "mailto:akarinliu@outlook.com"
+        }
       ],
 
       socialLinks: [
