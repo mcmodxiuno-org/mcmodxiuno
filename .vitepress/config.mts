@@ -26,6 +26,14 @@ export default defineConfig({
       })(window, document, "clarity", "script", "rckh4kgswt");
     `,
     ],
+    [
+      "script",
+      {
+        async: "",
+        src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3159573363149605",
+        crossorigin: "anonymous"
+      }
+    ],
   ],
 
   themeConfig: {
