@@ -26,7 +26,7 @@ Flashback 和 ReplayMod 是我使用过的两个模组，在 Minecraft 1.21 版�
 
 ### Flashback
 
-* 磁盘占用空间少
+* 录像占用磁盘空间少
 * 功能强大
 * 可在渲染时隐藏 GUI
 * 强大的功能
