@@ -149,7 +149,7 @@ export default defineConfig({
       ],
 
       footer: {
-        copyright: "Copyright © 2025-present Minecraft 模组修罗场",
+        copyright: "Copyright © 2025-present Minecraft 模组修罗场 CC BY-SA 4.0",
       },
       editLink: {
         pattern: "https://github.com/mcmodxiuno-org/mcmodxiuno/edit/master/:path",
@@ -189,7 +189,7 @@ export default defineConfig({
       ],
 
       footer: {
-        copyright: "Copyright © 2025-present Minecraft Mod Xiuno",
+        copyright: "Copyright © 2025-present Minecraft Mod Xiuno CC BY-SA 4.0",
       },
       editLink: {
         pattern: "https://github.com/mcmodxiuno-org/mcmodxiuno/edit/master/:path",
@@ -226,7 +226,7 @@ export default defineConfig({
       ],
 
       footer: {
-        copyright: "Copyright © 2025-present Minecraft モッド修羅場",
+        copyright: "Copyright © 2025-present Minecraft モッド修羅場 CC BY-SA 4.0",
       },
       editLink: {
         pattern: "https://github.com/mcmodxiuno-org/mcmodxiuno/edit/master/:path",
@@ -263,7 +263,7 @@ export default defineConfig({
       ],
 
       footer: {
-        copyright: "Copyright © 2025-present Minecraft 모드 수련장",
+        copyright: "Copyright © 2025-present Minecraft 모드 수련장 CC BY-SA 4.0",
       },
       editLink: {
         pattern: "https://github.com/mcmodxiuno-org/mcmodxiuno/edit/master/:path",
