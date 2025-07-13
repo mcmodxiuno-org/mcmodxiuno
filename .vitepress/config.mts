@@ -127,6 +127,7 @@ export default defineConfig({
         
           nav: [
         { text: "首页", link: "/" },
+        { text: "博客", link: "/blog" },
         { text: "贡献指南", link: "/CONTRIBUTING" },
         { text: "关于", link: "/about" },
         {
