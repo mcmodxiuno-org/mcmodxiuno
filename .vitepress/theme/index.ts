@@ -1,4 +1,5 @@
 import DefaultTheme from 'vitepress/theme';
+import './custom.css'
 import giscusTalk from 'vitepress-plugin-comment-with-giscus';
 import { useData, useRoute } from 'vitepress';
 import { toRefs } from "vue";
