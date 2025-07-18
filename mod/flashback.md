@@ -1,10 +1,9 @@
 # Flashback
 
-## 版本支持列表
+## 版本支持情况
 
-|模组加载器|1.21|
-|:-:|:-:|
-|Fabric|✅|
+![Modrinth 版本支持情况](https://img.shields.io/modrinth/game-versions/flashback)
+
 
 
 ## 简介

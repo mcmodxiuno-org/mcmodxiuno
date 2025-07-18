@@ -4,13 +4,9 @@ description: 'Iris 是一个基于 Sodium 的中间件光影加载器，专为 M
 
 # Iris
 
-## 版本支持列表
+## 版本支持情况
 
-|模组加载器|1.16|1.17|1.18|1.19|1.20|1.21|
-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|NeoForge|1.16.5|✅|✅|✅|✅|✅|
-|Fabric|1.16.5|✅|✅|✅|✅|✅|
-|Quilt|1.16.5|✅|✅|✅|✅|✅|
+![Modrinth 版本支持情况](https://img.shields.io/modrinth/game-versions/iris)
 
 ## 简介
 

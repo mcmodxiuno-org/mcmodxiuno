@@ -4,13 +4,9 @@ description: '一个加速Minecraft运行速度的模组，支持多个版本，
 
 # DashLoader
 
-## 版本支持列表
+## 版本支持情况
 
-|模组加载器|1.16|1.17|1.18|1.19|1.20|1.21|
-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|Fabric|1.16.5|✅|✅|✅|✅|1.21.1|
-|Quilt|||✅|✅|✅|1.21.1|
-
+![Modrinth 版本支持情况](https://img.shields.io/modrinth/game-versions/dashloader)
 
 ## 简介
 
@@ -20,6 +16,11 @@ description: '一个加速Minecraft运行速度的模组，支持多个版本，
 
 - ✅ 客户端
 - ❎ 服务端
+
+## 支持的模组平台
+
+- Fabric
+- Quilt
 
 ## 不兼容模组
 

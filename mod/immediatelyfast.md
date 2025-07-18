@@ -4,14 +4,9 @@ description: '一个 Minecraft 启动速度优化模组，快如闪电。支持 
 
 # ImmediatelyFast
 
-## 版本支持列表
+## 版本支持情况
 
-|模组加载器|1.18|1.19|1.20|1.21|
-|:-:|:-:|:-:|:-:|:-:|
-|Forge||✅|✅
-|NeoForge|||1.20.2|✅
-|Fabric|1.18.2|✅|✅|✅
-|Quilt|1.18.2|✅|✅|✅
+![Modrinth 版本支持情况](https://img.shields.io/modrinth/game-versions/immediatelyfast)
 
 ## 简介
 

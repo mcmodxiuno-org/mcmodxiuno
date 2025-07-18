@@ -14,6 +14,11 @@ description: '本文档提供了一个全面的贡献指南，帮助开发者理
 - 简洁：避免冗余描述，直击要点
 - 结构清晰：使用二级标题组织内容
 
+## 版本支持情况展示
+- 如果模组既有 Curseforge 版本，也有 Modrinth 版本，优先展示 Modrinth 版本
+- 如果模组只有 Modrinth 版本，展示 Modrinth 版本
+- 如果模组没有 Modrinth 版本，展示 Curseforge 版本
+
 ## 提交流程
 1. Fork本仓库
 2. 创建特性分支

@@ -3,13 +3,9 @@ description: '这是一个优化 Minecraft 模组，替代 Optifine 的新模组
 ---
 # Sodium
 
-## 版本支持列表
+## 版本支持情况
 
-|模组加载器|1.16|1.17|1.18|1.19|1.20|1.21|
-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|NeoForge| | | | | |1.21.1~1.21.6|
-|Fabric|1.16.3~1.16.5|1.17.1|✅|✅|✅|✅|
-|Quilt|1.16.3~1.16.5|1.17.1|✅|✅|✅|✅|
+![Modrinth 版本支持情况](https://img.shields.io/modrinth/game-versions/sodium)
 
 ## 简介
 
