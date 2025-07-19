@@ -29,7 +29,7 @@ export default defineConfig({
     [
       "script",
       {
-        async: "",
+        async: "async",
         src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3159573363149605",
         crossorigin: "anonymous"
       }
