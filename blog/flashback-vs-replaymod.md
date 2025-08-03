@@ -34,6 +34,9 @@
 ## 总结
 
 这两个模组如何选择，这里给一个建议：
+
 - 如果您在玩 Minecraft 1.21 以上的 Java 21 以上的版本，建议直接抛弃 [ReplayMod](/mod/replaymod.md)，转投 [Flashback](/mod/flashback.md) 的拥抱。
 
 - 如果您在玩 Minecraft 1.21 以下的 Java 17 以下的版本，建议不要考虑使用 [Flashback](/mod/flashback.md)，使用 [ReplayMod](/mod/replaymod.md) 是最稳妥的选择。
+
+- 如果有全景视频的需求，[ReplayMod](/mod/replaymod.md) 在这方面不可替代，正是 [Flashback](/mod/flashback.md) 无法超越的功能。
