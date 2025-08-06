@@ -19,7 +19,7 @@ ImmediatelyFast 和 DashLoader 是我用过的两个优化模组，其中 DashLo
 
 - 对闭源的客户端不友好
 - 不能与 OptiFine、VulkanMod 一起使用
-- 打开存档会导致 MSPT 突然飙升
+- 打开存档会导致 MSPT 突然飙升（实际是模组冲突问题）
 
 ## 优点
 
