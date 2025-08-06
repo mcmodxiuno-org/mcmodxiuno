@@ -19,7 +19,7 @@ description: '一个 Minecraft 启动速度优化模组，快如闪电。支持 
 
 ## 不兼容模组
 
--
+- Entity Culling：会导致 MSPT 上升
 
 ## 下载链接
 
