@@ -33,7 +33,7 @@
 
 ## 总结
 
-这两个模组如何选择，这里给一些建议：
+这两个模组如何选择，这里给一个建议：
 
 - 如果您在玩 Minecraft 1.21 以上的 Java 21 以上的版本，建议直接抛弃 [ReplayMod](/mod/replaymod.md)，转投 [Flashback](/mod/flashback.md) 的拥抱。
 
