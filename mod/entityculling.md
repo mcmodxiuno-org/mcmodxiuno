@@ -35,6 +35,5 @@
 
 ## 同类竞品
 
-- [DashLoader](/mod/dashloaer.md)
-- [ImmediatelyFast](/modimmediatelyfast.md)
+- [ImmediatelyFast](/mod/immediatelyfast.md)
 

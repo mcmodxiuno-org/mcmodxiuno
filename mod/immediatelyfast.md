@@ -42,5 +42,6 @@ description: '一个 Minecraft 启动速度优化模组，快如闪电。支持 
 ## 同类竞品
 
 - [DashLoader](/mod/dashloader.md)
+- [Entity Culling](/mod/immediatelyfast.md)
 
 
