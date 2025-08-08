@@ -162,7 +162,7 @@ export default defineConfig({
     en: {
       title: "Minecraft Mod Xiuno",
       description: "Maybe the world's first Minecraft mod comparison site",
-      label: "English",
+      label: "English|🚧",
       lang: "en",
       link: "/en/",
       themeConfig: {
@@ -200,7 +200,7 @@ export default defineConfig({
       },
     },
     jp: {
-      label: "日本語",
+      label: "日本語|🚧",
       lang: "ja",
       link: "/jp/",
       title: "Minecraft モッド修羅場",
@@ -237,7 +237,7 @@ export default defineConfig({
       },
     },
     kr: {
-      label: "한국어",
+      label: "한국어|🚧",
       lang: "ko",
       link: "/kr/",
       title: "Minecraft 모드 수련장",
