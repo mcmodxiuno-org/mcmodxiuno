@@ -15,7 +15,7 @@
 
 ## 不兼容模组
 
-- [ImmediatelyFast](/mod/immediatelyfast.md)：会导致 MSPT 上升
+- 
 
 ## 下载链接
 
