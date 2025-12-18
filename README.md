@@ -1,4 +1,6 @@
 # Minecraft 模组修罗场
+![GitHub repo size](https://img.shields.io/github/repo-size/AkarinLiu/teleprompter)
+
 一个同类 Minecraft 模组对比网站
 
 ## TODO
