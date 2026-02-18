@@ -1,3 +1,4 @@
+# ⚠️此项目因被 AI 替代，将不再更新文档
 # Minecraft 模组修罗场
 ![GitHub repo size](https://img.shields.io/github/repo-size/AkarinLiu/teleprompter)
 
